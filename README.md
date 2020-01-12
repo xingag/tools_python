@@ -12,6 +12,7 @@
 
 ## 文章列表
 
+* [批量生成手机号码](./批量生成手机号码)
 * [短视频二次创作](./video_auto/二次剪辑)
 * [使用 Python 制作 GIF 动画视频](./video_auto/制作GIF视频/)
 * [使用 Python 制作一个卡点视频](./video_auto/卡点视频/readme.md)

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">防折叠</string>
+    <string name="desc">防止折叠服务\n1、防止微信朋友圈粘贴的内容被折叠\n2、操作前，请先开启服务\n3、如果失效，请重启服务</string>
+    <string name="tips">1、防止微信朋友圈粘贴的内容被折叠\n2、操作前，请先开启服务\n3、如果失效，请重启服务</string>
+</resources>

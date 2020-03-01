@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wuhenzhizao.titlebar.widget.CommonTitleBar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:titlebar="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/titlebar"
+    android:layout_width="match_parent"
+    android:layout_height="100dip"
+    titlebar:leftType="imageButton"
+    titlebar:leftDrawable ="@mipmap/ic_back"
+    titlebar:titleBarHeight="100dip"
+    titlebar:titleBarColor="#009688" />

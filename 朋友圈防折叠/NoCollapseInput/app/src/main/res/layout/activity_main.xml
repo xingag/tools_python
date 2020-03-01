@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="20dip">
+
+
+        <TextView
+            android:layout_marginLeft="10dip"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="当前状态："
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/status_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="关闭"
+            android:textColor="#ff0000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:paddingBottom="10dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+
+        <Button
+            android:id="@+id/open_service_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/btn_bg"
+            android:text="去设置"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:paddingTop="20dip"
+        android:paddingLeft="10dip"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:text="使用说明："
+        android:textSize="20sp" />
+
+    <TextView
+        android:paddingTop="10dip"
+        android:paddingLeft="10dip"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/tips"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

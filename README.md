@@ -22,3 +22,4 @@
 * [替换 `apk` 的资源并重新打包全解析](./android/replace_apk_resource_pro/readme.md)
 * [`appium` 配合压力测试 `app` 应用](./android/appium_demo/)
 * [每天固定时间发送天气、笑话给微信个人和群，并部署到云服务器](./EveryDay/)
+* [视频特殊处理，保证唯一性](./视频特殊处理.py)

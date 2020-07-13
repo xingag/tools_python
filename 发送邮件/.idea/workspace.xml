@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30332c8d-32f0-4029-8c17-0f299d6f5a1e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Web/Django/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/Django/api/restfulapi/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/Django/api/utils/CustomViewBase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/Django/api/utils/JsonResponse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/Django/api/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/Django/api/utils/custom_execption.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/Django/api_restful/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/Django/api_restful/rest/simple_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Web/Django/api_restful/rest/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attachments/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/attachments/report.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email_by_smtplib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email_by_yagmail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email_by_zmail_0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email_by_zmail_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../无障碍-AccessibilityService/dy_auto/app/src/main/java/com/xingag/bean/VideoNewItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../无障碍-AccessibilityService/dy_auto/app/src/main/java/com/xingag/dy_auto/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../无障碍-AccessibilityService/dy_auto/app/src/main/java/com/xingag/inter/WaitInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../无障碍-AccessibilityService/dy_auto/app/src/main/java/com/xingag/network/Header.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../无障碍-AccessibilityService/dy_auto/app/src/main/java/com/xingag/utils/AppUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../无障碍-AccessibilityService/dy_auto/app/src/main/java/com/xingag/utils/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../无障碍-AccessibilityService/dy_auto/app/src/main/java/com/xingag/utils/RootCmd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../无障碍-AccessibilityService/dy_auto/app/src/main/java/com/xingag/utils/ScreenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../无障碍-AccessibilityService/dy_auto/app/src/main/res/xml/accessibility_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../视频搬运处理/file_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../视频搬运处理/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../视频搬运处理/readmd.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../FrontEnd/Vue/first/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../FrontEnd/Vue/first/two.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../FrontEnd/Vue/first/vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AppleScript 总结/AppleScript 学习笔记1-初始AppleScript.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AppleScript 总结/AppleScript 学习笔记2-捕获错误.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AppleScript 总结/AppleScript 学习笔记3-文件夹、文件、路径.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AppleScript 总结/AppleScript 学习笔记4-四种数据类型.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AppleScript 总结/AppleScript 学习笔记5-if:else_while.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AppleScript 总结/AppleScript 学习笔记6-处理程序Handler.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AppleScript 总结/AppleScript+Automator.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AppleScript 总结/TODO.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AppleScript 总结/常用的Bash alias.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AppleScript 总结/登录服务器/登录服务器.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AppleScript 总结/登录服务器/登录服务器.scpt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Django/api/api/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/Django/api/api/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Django/api/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/Django/api/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Django/api/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/Django/api/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Django/api/readmd.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/Django/api/readmd.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Django/api/restfulapi/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Django/api/restfulapi/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/Django/api_restful/readme.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Django/api/restfulapi/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/Django/api/restfulapi/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Django/api/restfulapi/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/Django/api/restfulapi/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Django/api/restfulapi/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/Django/api/restfulapi/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Django/api/restfulapi/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/Django/api/restfulapi/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Flask/api/1.0.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Flask/api/1.1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Flask/api/2.0.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Flask/api/2.1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Flask/api/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Flask/api/dsf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Flask/api/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Flask/api2/api/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Flask/api2/api/api_foo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Flask/api2/api_app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Flask/api2/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Flask/api2/exts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Flask/api2/manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Flask/api2/migrations/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Flask/api2/migrations/alembic.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Flask/api2/migrations/env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Flask/api2/migrations/script.py.mako" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Flask/api2/migrations/versions/9fcb6b23e547_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Flask/api2/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Flask/api2/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Flask/api2/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Flask/api2/utils/restful_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/Flask/api3/part2/2.1.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>MIMEMultipart</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/email_by_zmail.py" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/email_by_smtplib.py" />
+        <option value="$PROJECT_DIR$/email_by_zmail_1.py" />
+        <option value="$PROJECT_DIR$/email_by_yagmail.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2131" />
+    <option name="y" value="400" />
+    <option name="width" value="1632" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="发送邮件" type="b2602c69:ProjectViewProjectNode" />
+              <item name="发送邮件" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/attachments" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/attachments" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.email_by_smtplib">
+    <configuration name="email_by_smtplib" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="发送邮件" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/email_by_smtplib.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="email_by_yagmail" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="发送邮件" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/email_by_yagmail.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="email_by_zmail" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="发送邮件" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/email_by_zmail_0.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="email_by_zmail_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="发送邮件" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/email_by_zmail_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.email_by_smtplib" />
+        <item itemvalue="Python.email_by_yagmail" />
+        <item itemvalue="Python.email_by_zmail_1" />
+        <item itemvalue="Python.email_by_zmail" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30332c8d-32f0-4029-8c17-0f299d6f5a1e" name="Default Changelist" comment="" />
+      <created>1594295709801</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594295709801</updated>
+      <workItem from="1594295712109" duration="40000" />
+      <workItem from="1594295799764" duration="9016000" />
+      <workItem from="1594532718702" duration="3495000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12551000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1920" y="188" width="1920" height="1057" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16080937" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21176471" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.21390374" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/$email_by_zmail.coverage" NAME="email_by_zmail Coverage Results" MODIFIED="1594297718291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$email_by_yagmail.coverage" NAME="email_by_yagmail Coverage Results" MODIFIED="1594300585947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$email_by_zmail_1.coverage" NAME="email_by_zmail_1 Coverage Results" MODIFIED="1594299499793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$email_by_smtplib.coverage" NAME="email_by_smtplib Coverage Results" MODIFIED="1594304452376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/email_by_zmail_0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attachments/config.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="132">
+            <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/yagmail/sender.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="240" column="12" lean-forward="true" selection-start-line="240" selection-start-column="12" selection-end-line="240" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="229" lean-forward="true" selection-start-line="229" selection-end-line="229" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/email_by_smtplib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="80" column="12" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
+          <folding>
+            <element signature="e#271#280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/zmail/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="101" column="16" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/email_by_zmail_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1202">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/email_by_yagmail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

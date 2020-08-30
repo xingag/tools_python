@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94b03643-6cb5-4a14-8383-9664f79aa406" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ninecell_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ninecell_video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/raw/pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/file_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/math_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/video_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../测试/uiautomator2 使用-Python/demo/uiautomator2_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../测试/uiautomator2 使用-Python/demo/weixin_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../测试/uiautomator2 使用-Python/demo/weixin_demo_pro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../测试/uiautomator2 使用-Python/demo/xianyu_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/HttpRunner使用总结/1、HttpRunner基础.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/HttpRunner使用总结/2、名词定义.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/HttpRunner使用总结/3、测试准备.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/HttpRunner使用总结/HAR/hr.har" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/HttpRunner使用总结/HAR/hr.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/HttpRunner使用总结/HttpRunner_API/api_server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/HttpRunner使用总结/HttpRunner_API/debugtalk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/HttpRunner使用总结/HttpRunner_API/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/HttpRunner使用总结/Test/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/HttpRunner使用总结/Test/assets/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/HttpRunner使用总结/Test/debugtalk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/HttpRunner使用总结/Test/hr1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/HttpRunner使用总结/Test/hr1_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/HttpRunner使用总结/Test/logs/303dd97e-3ec3-4657-bff9-af607b417403.run.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/HttpRunner使用总结/Test/logs/55ddf6b5-2a2f-4c45-b44b-78bbe635b2d2.run.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/HttpRunner使用总结/Test/logs/5a5555cd-309a-4269-98fd-a19e2edff3d5.run.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/HttpRunner使用总结/Test/logs/6e362b49-e0cd-4d33-90b2-61fe4bb13ef3.run.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/HttpRunner使用总结/Test/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/HttpRunner使用总结/raw/debugtalk/debugtalk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/HttpRunner使用总结/raw/debugtalk/hr1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/HttpRunner使用总结/raw/hr.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/HttpRunner使用总结/raw/hr1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/HttpRunner使用总结/raw/生成测试报告/debugtalk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/HttpRunner使用总结/raw/生成测试报告/hr1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/HttpRunner使用总结/raw/生成测试报告/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/1.UIAutomator2 入门.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/10.wait总结.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/11.获取控件.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/12.UIWatcher使用.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/2.JUnit Annotation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/3.1 UIDevice入门.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/3.2 UIDevice-Screen篇.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/4.1 触屏操作1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/4.获取设备名称和Package名称.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/5.1 waitForIdle 等待.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/5.2 waitForWindowUpdate 等待.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/6.Hierarchy.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/7.截屏.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/8.performActionAndWait.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/9.By&amp;BySelector&amp;UIObject2和UISelector&amp;UIObject.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/UiAutomator 1 VS 2测试框架.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/androidTest/java/zhepan/com/mytest/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/java/com/xag/adapter/PagerFragmentAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/java/com/xag/adapter/TextAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/java/com/xag/bean/TextItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/java/com/xag/ui/activity/AActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/java/com/xag/ui/activity/BActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/java/com/xag/ui/activity/FooActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/java/com/xag/ui/activity/WaitActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/java/com/xag/ui/base/BaseLazyFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/java/com/xag/ui/fragment/FirstFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/java/com/xag/ui/fragment/FourFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/java/com/xag/ui/fragment/SecondFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/java/com/xag/ui/fragment/ThreeFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/java/zhepan/com/mytest/CMDUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/java/zhepan/com/mytest/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/res/layout/activity_a.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/res/layout/activity_b.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/res/layout/activity_foo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/res/layout/activity_wait.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/res/layout/fragment_four.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/res/layout/fragment_one.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/res/layout/fragment_second.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/res/layout/fragment_three.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/res/layout/home_item_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/app/src/test/java/zhepan/com/mytest/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/androidTest/java/zhepan/com/mytestcase/AnnotationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/androidTest/java/zhepan/com/mytestcase/DeviceNamePackageName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/androidTest/java/zhepan/com/mytestcase/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/androidTest/java/zhepan/com/mytestcase/GetWidgetTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/androidTest/java/zhepan/com/mytestcase/HierarchyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/androidTest/java/zhepan/com/mytestcase/PerformActionAndWaitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/androidTest/java/zhepan/com/mytestcase/SalaryShowAppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/androidTest/java/zhepan/com/mytestcase/Screen1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/androidTest/java/zhepan/com/mytestcase/Screen2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/androidTest/java/zhepan/com/mytestcase/ScreenShotTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/androidTest/java/zhepan/com/mytestcase/TouchTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/androidTest/java/zhepan/com/mytestcase/UIWatcherTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/androidTest/java/zhepan/com/mytestcase/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/androidTest/java/zhepan/com/mytestcase/WaitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/androidTest/java/zhepan/com/watcher/InstallUIWatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/androidTest/java/zhepan/com/watcher/LogAndFalseUIWatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/androidTest/java/zhepan/com/watcher/LogAndTrueUIWatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/androidTest/java/zhepan/com/watcher/PressBackUIWatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/mytestcase/src/test/java/zhepan/com/mytestcase/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/nantian.keystore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/MyTest/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/app/src/androidTest/java/com/xingag/bean/VideoItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/app/src/androidTest/java/com/xingag/qmxsp/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/app/src/androidTest/java/com/xingag/qmxsp/GetDeal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/app/src/androidTest/java/com/xingag/qmxsp/NumUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/app/src/androidTest/java/com/xingag/qmxsp/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/app/src/main/java/com/xingag/qmxsp/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/app/src/main/java/com/xingag/utils/CMDUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/app/src/test/java/com/xingag/qmxsp/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/deal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/deal-getting/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/androidTest/java/com/xingag/vp/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/java/com/xag/adapter/adapter/PagerFragmentAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/java/com/xag/adapter/adapter/TextAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/java/com/xag/bean/TextItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/java/com/xag/ui/base/BaseLazyFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/java/com/xag/ui/fragment/FirstFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/java/com/xag/ui/fragment/FourFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/java/com/xag/ui/fragment/SecondFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/java/com/xag/ui/fragment/ThreeFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/java/com/xingag/vp/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/res/layout/activity_foo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/res/layout/fragment_four.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/res/layout/fragment_one.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/res/layout/fragment_second.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/res/layout/fragment_three.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/res/layout/home_item_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/app/src/test/java/com/xingag/vp/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/vp/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/app/src/androidTest/java/com/xingag/widget/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/app/src/main/java/com/xingag/widget/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/app/src/test/java/com/xingag/widget/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/myuiautomator/widget/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/raw/20171121235932913.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/raw/20171125145048328.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/raw/20171125151938862.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../测试/UIAutomator2.0 系列教程/raw/20171125155000910.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Vue/demo/part1_2/0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Vue/demo/part1_2/test.js" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ninecell_video.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="549">
+              <caret line="164" column="37" lean-forward="true" selection-start-line="163" selection-start-column="8" selection-end-line="164" selection-end-column="37" />
+              <folding>
+                <element signature="e#266#287#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/file_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="651">
+              <caret line="52" selection-start-line="52" selection-end-line="59" />
+              <folding>
+                <element signature="e#258#267#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/video_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="104" selection-start-line="104" selection-end-line="118" selection-end-column="52" />
+              <folding>
+                <element signature="e#259#272#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ninecell_image.py" />
+        <option value="$PROJECT_DIR$/math_utils.py" />
+        <option value="$PROJECT_DIR$/video_utils.py" />
+        <option value="$PROJECT_DIR$/utils/file_utils.py" />
+        <option value="$PROJECT_DIR$/ninecell_video.py" />
+        <option value="$PROJECT_DIR$/utils/video_utils.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="82" />
+    <option name="y" value="91" />
+    <option name="width" value="1747" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="图片视频九宫格" type="b2602c69:ProjectViewProjectNode" />
+              <item name="图片视频九宫格" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="图片视频九宫格" type="b2602c69:ProjectViewProjectNode" />
+              <item name="图片视频九宫格" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="图片视频九宫格" type="b2602c69:ProjectViewProjectNode" />
+              <item name="图片视频九宫格" type="462c0819:PsiDirectoryNode" />
+              <item name="raw" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/raw" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/raw" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.ninecell_video">
+    <configuration name="ninecell_image" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="图片视频九宫格" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ninecell_image.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ninecell_video" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="图片视频九宫格" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ninecell_video.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ninecell_video" />
+        <item itemvalue="Python.ninecell_image" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94b03643-6cb5-4a14-8383-9664f79aa406" name="Default Changelist" comment="" />
+      <created>1598624346550</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598624346550</updated>
+      <workItem from="1598624348907" duration="7222000" />
+      <workItem from="1598633026766" duration="4357000" />
+      <workItem from="1598705274231" duration="3396000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14975000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="82" y="91" width="1747" height="1057" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23812316" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.53057" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3299539" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/$ninecell_image.coverage" NAME="ninecell_image Coverage Results" MODIFIED="1598627781952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$ninecell_video.coverage" NAME="ninecell_video Coverage Results" MODIFIED="1598711544644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="1328" column="27" selection-start-line="1328" selection-start-column="24" selection-end-line="1328" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raw/至今无人超越的3个动作.mp4">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/1.jpg" />
+    <entry file="file://$PROJECT_DIR$/temp.jpg" />
+    <entry file="file://$PROJECT_DIR$/temp/0001.jpg" />
+    <entry file="file://$PROJECT_DIR$/raw/0038.jpg" />
+    <entry file="file://$PROJECT_DIR$/ninecell_image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1430">
+          <caret line="65" column="38" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/math_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raw/pic.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/video_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="104" selection-start-line="104" selection-end-line="118" selection-end-column="52" />
+          <folding>
+            <element signature="e#259#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/file_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="52" selection-start-line="52" selection-end-line="59" />
+          <folding>
+            <element signature="e#258#267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ninecell_video.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="164" column="37" lean-forward="true" selection-start-line="163" selection-start-column="8" selection-end-line="164" selection-end-column="37" />
+          <folding>
+            <element signature="e#266#287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
